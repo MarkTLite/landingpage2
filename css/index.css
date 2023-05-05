@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Lora', serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+header{
+    /* background-color: black; */
+    height: fit-content;
+    padding: 20px 10vw 20px 10vw;
+}
+section{
+    padding: 20px 10vw 20px 10vw;
+}
+/*  ########################## NAV BAR  ################################ */
+
+nav{
+    /* background-color: white; */
+    display: flex;
+    padding: 10px 0px;
+}
+
+.nav__div1{
+    flex: 0.2;
+    /* background-color: beige; */
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff4d4d;
+
+}
+.nav__div2{
+    flex: 1;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.nav__div2 ul{
+    display: flex;
+}
+.nav__div2 ul li{
+    margin: 0px 20px;
+    list-style: none;
+    line-height: 20px;
+    color: #797979;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.nav__div3{
+    flex: 0.2;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: end;
+}
+.nav__div3 button{
+    background-color: #ff4d4d;
+    height: 40px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 1px solid #ff4d4d;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* ############################### HERO SECTION ############################### */
+
+.hero-section{
+    /* background-color: grey; */
+    height: fit-content;
+    display: flex;
+}
+
+.hero-section__div1{
+    flex: 1;
+    /* background-color: antiquewhite; */
+}
+.hero-section__div1 h1{
+    background-color: white;
+    color: #000022;
+    font-size: 4.2rem;
+    font-family: 'Lora', serif;
+    margin: 134px 0px 40px 0px;
+}
+.hero-section__div1 p{
+    background-color: white;
+    color: #535353;
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 0px 80px 0px;
+    line-height: 44px;
+}
+.hero-section__div1 button{
+    color: #fff;
+    padding: 25px 55px;
+    background-color: #ff4d4d;
+    border: 1px solid transparent;
+    font-size: 18px;
+    border-radius: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.hero-section__div2{
+    flex: 0.9;
+    margin-left: 40px;
+    /* height: 100%; */
+    background-color:black;
+    position: relative;
+}
+.hero-section__back-circle{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 20px;
+    margin: auto;
+    background-color: #ff4d4d;
+    height: 80%;
+    width: 95%;
+    background-repeat: no-repeat;
+    border-radius: 60%;
+}
+.hero-section__student{
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    margin: auto;
+    /* background-color: white; */
+    height: 82vh;
+    width: 78%;
+    background-repeat: no-repeat;
+    background-image: url('../images/studentwithbooks.png');
+    /* border-radius: 60%; */
+    z-index: 2;
+}
+
+/* ########################### WHY SECTION ############################ */
+.why-section{
+    display: flex;
+    /* background-color: green; */
+    height: fit-content;
+}
+.why-section__div1{
+    margin-top: 134px;
+    margin-bottom: 60px;
+    /* margin-right: 50px; */
+    flex: 0.7;
+    background-color: white;
+    /* height: fit-content; */
+}
+.why-section__div1 h2{
+    color: #000022;
+    font-size: 40px;
+    margin: 0px 0px 40px 0px;
+}
+.why-section__div1 p{
+    color: #535353;
+    font-size: 20px;
+    line-height: 30px;
+}
+.why-section__grid{
+    /* height: fit-content; */
+    flex: 0.9;
+    /* background-color: #535353; */
+    margin-top: 134px;
+    margin-bottom: 60px;
+    padding: 0px 20px;
+    display: grid;
+    grid-template-columns: 18vw 18vw 18vw;
+    grid-template-rows: 30vh 30vh;
+    gap: 20px;
+}
+
+.why-section__grid-item{
+    background-color: #fff;
+    /* margin: 0px 20px 20px 0px; */
+    height: fit-content;
+}
+.why-section__grid-item h3{
+    color: #000022;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.why-section__grid-item p{
+    color: #535353;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+.why-section__circle{
+    width: 70px;
+    height: 70px;
+    /* background-color: #000022; */
+    border-radius: 50px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.circle1{
+    background-image: url('../images/benefit1.png');
+}
+.circle2{
+    background-image: url('../images/benefit2.png');
+}
+.circle3{
+    background-image: url('../images/benefit3.png');
+}
+.circle4{
+    background-image: url('../images/benefit4.png');
+}
+.circle5{
+    background-image: url('../images/benefit5.png');
+}
+.circle6{
+    background-image: url('../images/benefit6.png');
+}
+/* ##################### WE HELP SECTION #################### */
+.we-help-section{
+    /* background-color: aqua; */
+    height: fit-content;
+    display: flex;
+    /* padding-top: 100px; */
+}
+.we-help-section__div1{
+    flex: 1;
+    background-color: red;
+    margin-top: 50px;
+}
+.we-help-section__div2{
+    flex: 1;
+    /* background-color: orange; */
+    margin-top: 140px;
+}
+.we-help-section__div2 h2{
+    color: #000022;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.we-help-section__div2 p{
+    color: #535353;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.we-help-section__divider{
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.we-help-section__stats-div{
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+}
+.we-help-section__stat{
+    flex: 1;
+}
+.we-help-section__num{
+    font-size: 50px;
+    font-weight: 600;
+    color: #ff4d4d;
+}
+.we-help-section__stat p{
+    color: #000022;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* ####################### COURSES - SECTION ################### */
+.courses-section{
+    /* background-color: #535353; */
+    height: fit-content;
+    padding-top: 100px;
+}
+
+.courses-section__title{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.courses-section__title h2{
+    color: #000022;
+    font-size: 30px;
+    word-spacing: 2px;
+
+}
+.courses-section__title button{
+    background-color: #ff4d4d;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    border: 0px;
+}
+.courses-section__ratings{
+    display: flex;
+}
+.courses-section__img1{
+    height: 200px;
+    width: 300px;
+    /* background-color: #000022; */
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.checked{
+   color: orange;
+}
+.courses-section__cards-div{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.courses-section__card{
+    margin-left: 30px;
+    width: 320px;
+}
+.courses-section__card h3{
+    color: #000022;
+    font-size: 25px;
+    font-family: 'Lora', serif;
+    margin-bottom: 20px;
+}
+.courses-section__card p{
+    color: #797979;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+.course1{
+    background-image: url('../images/course1.png');
+}
+.course2{
+    background-image: url('../images/course2.png');
+}
+.course3{
+    background-image: url('../images/course3.png');
+}
+
+.courses-section__ratings p{
+    color: #000022;
+    font-weight: 600;
+    font-size: 18px;
+}
+.price{
+    color:#ff4d4d;
+    font-size: 26px;
+    font-weight: 600;
+}
+/* ############################# TESTIMONIALS SECTION ###################### */
+.testimonials_section{
+    display: flex;
+    /* background-color: orange; */
+    height: fit-content;
+    padding-top: 100px;
+}
+
+.testimonials_section__div1{
+    flex: 1;
+    background-color: blue;
+    margin-right: 100px;
+}
+.testimonials_section__div2{
+    flex: 0.8;
+    /* background-color: red; */
+}
+.testimonials_section__profile{
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+
+}
+.testimonials_section__div2 h2{
+    color: #000022;
+    font-size: 50px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.testimonials_section__div2 p{
+    color: #535353;
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 40px;
+}
+
+.testimonials_section__profile button{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: #ff4d4d;
+    color: #fff;
+    font-weight: 600;
+    border: 0px;
+}
+/* ############### START-SECTION ################## */
+.start-section__div{
+    background-color: #ff4d4d;
+    height: 180px;
+    border-radius: 30px;
+    margin-top: 100px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start-section__div h2{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    margin-right: 20px;
+    /* margin-left: 50px; */
+    flex: 0.9;
+}
+.start-section__div button{
+    height: 60px;
+    padding: 20px 40px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #ff4d4d;
+    font-weight: 600;
+    border-radius: 40px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+/* ############################ FOOTER SECTION ######################## */
+footer{
+    /* background-color: #000022; */
+    padding: 100px 0vw 20px 0vw;
+}
+.footer__div1{
+    display: flex;
+    padding: 20px 10vw 20px 10vw;
+}
+.footer__titlediv h1{
+    font-size: 30px;
+    color: #ff4d4d;
+    margin-bottom: 40px;
+}
+.footer__titlediv{
+    flex: 0.5;
+    /* background-color: aqua; */
+}
+
+.footer__titlediv p{
+    font-size: 20px;
+    color: #535353;
+    margin-bottom: 20px;
+}
+
+.footer__titlediv i{
+    font-size: 30px;
+    color: #535353;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+.footer__tour {
+    flex: 0.2;
+}
+.footer__tour h3{
+    font-size: 20px;
+    color: #000022;
+    margin-bottom: 30px;
+}
+
+.footer__tour ul li{
+    line-height: 40px;
+    list-style: none;
+    color: #535353;
+    font-size: 20px;
+}
+.footer__tour {
+    flex: 0.2;
+}
+.footer__tour h3{
+    font-size: 20px;
+    color: #000022;
+    margin-bottom: 30px;
+}
+
+.footer__tour ul li{
+    line-height: 40px;
+    list-style: none;
+    color: #535353;
+    font-size: 20px;
+}
+.footer__subscribe{
+    flex: 0.2;
+
+}
+.footer__subscribe h3{
+    flex: 0.2;
+    font-size: 20px;
+    color: #000022;
+    margin-bottom: 30px;
+
+}
+.footer__subscribe p{
+    font-size: 20px;
+    color: #535353;
+    margin-bottom: 30px;
+
+}
+.footer__subscribe div{
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 1px solid #797979 ;
+    height: fit-content;
+    color: #535353;
+}
+.footer__subscribe input {
+    border: 0px;
+    height: 50px;
+    color: #535353;
+}
+.footer__subscribe button{
+    border: 0px;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    background-color: #ff4d4d;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.footer__div2{
+    margin-top: 70px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #000022;
+font-size: 20px;
+
+}
