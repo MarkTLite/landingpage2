@@ -636,6 +636,7 @@ nav{
     margin-bottom: 40px;
     width: 450px;
     font-family: var(--font-family-roboto);
+    line-height: 30px;
 }
 .we-help-section__divider{
     height: 2px;
