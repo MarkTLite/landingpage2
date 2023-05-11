@@ -30,10 +30,10 @@ body{
 header{
     /* background-color: black; */
     height: fit-content;
-    padding: 20px 7vw;
+    padding: 20px 13vw;
 }
 section{
-    padding: 20px 7vw;
+    padding: 20px 13vw;
 }
 /*  ########################## NAV BAR  ################################ */
 
@@ -793,35 +793,36 @@ nav{
     z-index: -12;
 }
 .testimonials__back-circle{
-    background: var(--color-pink-one);
-    width: 430px;
-    height: 470px;
+    background: var(--color-pink-two);
+    width: 480px;
+    height: 500px;
     border-radius: 50%;
     transform: rotate(-20deg);
     position: absolute;
-    top: 80px;
-    left: 20px;
+    top: 50px;
+    left: 40px;
     z-index: -11;
 }
 .testimonials__hider-circle{
     /* background-color: black; */
-    width: 425px;
-    height: 500px;
+    width: 305px;
+    height: 300px;
     border-radius: 50%;
-    transform: rotate(-193deg);
+    transform: rotate(-180deg);
     position: absolute;
-    border-top: 200px solid var(--color-white-two);
-    top: 15px;
-    left: 33px;
+    border-top: 206px solid var(--color-white-two);
+    top: 235px;
+    left: 133px;
     z-index: -9;
 }
 .testimonials__student-image{
+    /* background-color: #000022; */
     position: absolute;
-    top: -60px;
+    top: -65px;
     left: 55px;
-    background-image: url('../images/student2.png');
-    height: 580px;
-    width: 400px;
+    background-image: url('../images/student3.png');
+    height: 600px;
+    width: 550px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -886,22 +887,32 @@ nav{
 }
 .start-section__div{
     background-color: var(--color-pink-one);
-    height: 180px;
+    height: fit-content;
+    width: fit-content;
     border-radius: 30px;
     margin-top: 00px;
-    padding: 30px 10px 30px 40px;
+    padding: 60px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin: auto;
 }
 .start-section__div h2{
     color: #fff;
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 600;
-    margin-right: 60px;
-    width: 450px;
-    /* background-color: gray; */
+    margin-right: 100px;
+    width: 530px;
+    /* background-color: gray;  */
+    margin-left: 50px;
+    font-family: var(--font-family-lato);
     /* flex: 0.9; */
+}
+.start-section__div > div{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 60px;
 }
 .start-section__div button{
     padding: 20px 40px;
@@ -912,14 +923,14 @@ nav{
     font-size: 16px;
 }
 .start-section__white-curve{
-    width: 330px;
+    width: 360px;
     height: 300px;
     background:rgba(249, 249, 249,0.1);
     /* background-color: #00002233; */
     border-radius: 50%;
     position: absolute;
-    top: -60px;
-    left: -10px;
+    top: -50px;
+    left: 180px;
 }
 .unfilled-button{
     background-color: transparent;
@@ -942,6 +953,7 @@ footer{
     font-size: 30px;
     color: #ff4d4d;
     margin-bottom: 40px;
+    font-family: var(--font-family-lato);
 }
 .footer__titlediv{
     flex: 0.5;
@@ -952,6 +964,7 @@ footer{
     font-size: 20px;
     color: #535353;
     margin-bottom: 20px;
+    font-family: var(--font-family-roboto);
 }
 
 .footer__titlediv i{
@@ -967,6 +980,7 @@ footer{
     font-size: 20px;
     color: #000022;
     margin-bottom: 30px;
+    font-family: var(--font-family-lato);
 }
 
 .footer__tour ul li{
@@ -974,6 +988,7 @@ footer{
     list-style: none;
     color: #535353;
     font-size: 20px;
+    font-family: var(--font-family-roboto);
 }
 .footer__tour {
     flex: 0.2;
@@ -982,6 +997,7 @@ footer{
     font-size: 20px;
     color: #000022;
     margin-bottom: 30px;
+    font-family: var(--font-family-lato);
 }
 
 .footer__tour ul li{
@@ -989,6 +1005,7 @@ footer{
     list-style: none;
     color: #535353;
     font-size: 20px;
+    font-family: var(--font-family-roboto);
 }
 .footer__subscribe{
     flex: 0.2;
@@ -999,13 +1016,14 @@ footer{
     font-size: 20px;
     color: #000022;
     margin-bottom: 30px;
+    font-family: var(--font-family-lato);
 
 }
 .footer__subscribe p{
     font-size: 20px;
     color: #535353;
     margin-bottom: 30px;
-
+    font-family: var(--font-family-roboto);
 }
 .footer__subscribe div{
     padding: 0px 10px;
@@ -1020,6 +1038,7 @@ footer{
     border: 0px;
     height: 50px;
     color: #535353;
+    font-family: var(--font-family-lato);
 }
 .footer__subscribe button{
     border: 0px;
