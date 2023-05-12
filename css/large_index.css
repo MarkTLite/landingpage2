@@ -1,6 +1,6 @@
 /* ################### CSS for Extra large devices (large laptops and desktops, 992px and up) ################*/
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1500px) {
 header {
     /* background-color: black; */
     height: fit-content;
